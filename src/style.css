@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, rgba(164,235,255,1) 15%, rgba(160,215,248,1) 29%, rgba(154,185,237,1) 39%, rgba(142,125,216,1) 56%, rgba(139,109,211,1) 66%, rgba(131,69,197,1) 77%, rgba(122,22,180,1) 88%);
+
+}
+
+#reset-password::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: #7a16b4;
+  display: block;
+  transition: width 0.3s ease-out;
+}
+#reset-password:hover::after{
+    width: 100%;
+}
+.sign-in button:hover{
+    border-width: 0.5px;
+}
